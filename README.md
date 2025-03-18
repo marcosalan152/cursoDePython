@@ -1,1 +1,1 @@
-<h1>Bem vindos!  </h1>
+<h1 style="text-align: center; font-size: 4rem;">Bem vindos!  </h1>  
