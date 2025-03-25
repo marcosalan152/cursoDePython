@@ -1,3 +1,4 @@
+from time import sleep
 
 print("-"*42)
 print("\033[1;33;41mBem vindos ao sistema de cadastro.\033[m".center(55))
@@ -15,3 +16,5 @@ complemento = str(input("COMPLEMENTO: (casa) ou (ap/número): "))
 print('-'*50)
 print(f"Meu nome é {nome}\nMinha idade é {idade} anos\nMeu endereço completo é {rua, numero, complemento}")
 print('-'*50)
+
+sleep(10)
