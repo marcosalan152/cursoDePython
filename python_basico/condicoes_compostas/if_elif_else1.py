@@ -1,4 +1,5 @@
 
+
 idade = int(input("Digite sua idade: "))
 
 if idade < 18:
@@ -10,5 +11,5 @@ elif idade < 65:
 elif idade < 100:
     print("Você está na melhor idade.")
 else:
-    print("Por favor digite um valor inteiro válido.")
+    print("Erro não esperado, digite um valor entre (1 e 100)")
 
