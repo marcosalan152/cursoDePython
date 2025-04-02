@@ -1,6 +1,5 @@
 
 numero = 0
-
 while True:
     try:
         numero = int(input("Digite um número inteiro: "))
