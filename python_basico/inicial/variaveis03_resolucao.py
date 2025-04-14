@@ -8,7 +8,7 @@ print(f"A soma entre {n1:.0f} + {n2:.0f} = {somar}")
 subtrair = n1 - n2
 print(f"A subtraçção entre {n1} - {n2} = {subtrair}")
 
-mulitiplicar = n1 * n2
+multiplicar = n1 * n2
 print(f"A multiplicação entre {n1} x {n2} = {mulitiplicar}")
 
 dividir = n1 / n2
