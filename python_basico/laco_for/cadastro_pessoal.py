@@ -18,11 +18,11 @@ for pessoa in range(1, 5):
         else:
             break
 
-    sexo = str(input("Digite o sexo [Mf]: ")).strip().strip().upper()[0]
-    while sexo not in 'fm':
-        print("ERRO: Por favor digite [m ou f] para o sexo.")
-        sexo = str(input("Digite o sexo [Mf]: ")).strip().strip().upper()[0]
-        break
+    sexo = str(input("Digite o sexo [Mf]: ")).strip().upper()[0]
+    while sexo not in 'MmFf':
+        sexo = str(input("Digite o sexo [Mf]: ")).strip().upper()[0]
+
+
 
     soma_idade = idade
 
